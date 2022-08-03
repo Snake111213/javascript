@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ejemplo de codigo javascript en el propio documento</title>
+  <script>
+    function saludo(nombre){
+      var name = prompt("escribe tu nombre: ");
+      if (name == "juan") {
+        document.write("Bienvenido de nuevo patron  ");
+      }
+      else{
+        document.write("Buenos dias  " + name + "  ");
+      }
+      Array[1, 5, 67];
+
+      document.write(Array[1])
+    }
+
+  </script>
+</head>
+<body>
+  <h1>has click aqui para recibir un saludo</h1>
+  <input type="button" value="Clik aqui" onclick="saludo()">
+</body>
+</html>
